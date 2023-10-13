@@ -1,0 +1,92 @@
+/* Write your CSS code here */
+* {
+    box-sizing: border-box;
+  }
+  .item-div {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px #d3d3d3 solid;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    width: 100%;
+  }
+  .item-img-div {
+    margin-right: 30px;
+  }
+  .item-img {
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  .author-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .topic {
+    font-size: 18px;
+    color: #8e8e8e;
+    font-weight: 500;
+  }
+  .title {
+    font-size: 23px;
+  }
+  .author-div {
+    display: flex;
+    align-items: center;
+  }
+  .author {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8e8e8e;
+  }
+  .link-style {
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .item-img {
+      height: 150px;
+      width: 250px;
+    }
+    .item-div {
+      flex-direction: column;
+      padding: 10px;
+      width: 90%;
+    }
+    .link-style {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item-img-div {
+      width: 100%;
+    }
+    .item-img {
+      width: 100%;
+    }
+    .topic {
+      font-size: 14px;
+    }
+    .title {
+      font-size: 20px;
+    }
+    .author-img {
+      height: 30px;
+      width: 30px;
+    }
+    .author {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 912px) {
+    .item-img {
+      width: 250px;
+      height: 120;
+    }
+  }
+  
