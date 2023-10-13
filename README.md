@@ -1,5 +1,5 @@
 
-**BLOGS-APP**
+## BLOGS-APP
 
 This is a simple application that Which displays the blogs list that retrived from the api.
 
@@ -14,7 +14,7 @@ This is a simple application that Which displays the blogs list that retrived fr
   - Page will be navigated to the Blog Item Details Route with the URL `/blogs/:id`
 - When the Blog Item Details Route is opened,
   - Make HTTP GET request to the **blogItemDetailsApiUrl** with the blog id to get the details of the blog
-    - Example: `https://apis.ccbp.in/blogs/2`
+    - Example: `http:localhost:3008/blogs/2`
   - **_loader_** will be displayed while fetching the data
   - After fetching the data, the details of the blog will be displayed
 
@@ -47,7 +47,6 @@ Returns a response containing the list of all blogs
     "author": "Dan Abramov,",
     "topic": "React.js"
   },
-  ...
 ]
 ```
 
@@ -67,7 +66,7 @@ Returns a response containing the details of the specific blog
 
 ```json
 {
-  "_id": 65269ca9e29e4072d0325162,
+  "_id": 2,
   "title": "React v16.7: No, This Is Not the One With Hooks",
   "image_url": "https://miro.medium.com/max/3158/1*kEPCQNY4dwVyaFuLEwJcNQ.png",
   "avatar_url": "https://avatars.githubusercontent.com/u/3624098?v=4",
@@ -94,5 +93,6 @@ Returns a response containing the details of the specific blog
 **NOTE**
 - And make sure that port 3008 doesn't run anything and for frontend application you have to run
 - please install suitable packages if it shows any error like package not found
+
 
 
